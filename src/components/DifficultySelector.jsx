@@ -16,8 +16,8 @@ const DifficultySelector = ({ onSelectDifficulty }) => {
 
   return (
     <div>
-      <h1>UNQuestions</h1>
-      <h2>Select Difficulty</h2>
+      <img src="./logo.png" alt="UNQuestions Logo" className="logo" />
+      <h2 className='tittle'>Select Difficulty</h2>
       {difficulties.map(difficulty => (
         <button key={difficulty} onClick={() => onSelectDifficulty(difficulty)}>
           {difficulty}
