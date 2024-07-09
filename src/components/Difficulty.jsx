@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { getDifficulties } from '../services/api';
 import '../styles/styles.css';
 
-const DifficultySelector = ({ onSelectDifficulty }) => {
+const Difficulty = ({ onSelectDifficulty }) => {
   const [difficulties, setDifficulties] = useState([]);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ const DifficultySelector = ({ onSelectDifficulty }) => {
   );
 };
 
-export default DifficultySelector;
+export default Difficulty;

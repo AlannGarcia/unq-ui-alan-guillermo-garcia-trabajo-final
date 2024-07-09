@@ -29,7 +29,7 @@ body {
   margin: 0 auto 20px auto; 
 }
 
-.wrapper, .game-over-wrapper {
+.wrapper, .gameOver {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -97,7 +97,7 @@ button:hover {
     font-size: 18px;
   }
 
-  .wrapper, .game-over-wrapper {
+  .wrapper, .gameOver {
     box-shadow:none;
     text-align: center;
   }
@@ -121,7 +121,7 @@ button:hover {
     font-size: 16px;
   }
 
-  .wrapper, .game-over-wrapper {
+  .wrapper, .gameOver {
     box-shadow:none;
     text-align: center;
     margin-right: 20%;

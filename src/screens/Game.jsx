@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import DifficultySelector from '../components/DifficultySelector';
+import DifficultySelector from '../components/Difficulty';
 import Question from '../components/Question';
 import { getQuestions } from '../services/api';
 import '../styles/styles.css';
@@ -56,7 +56,7 @@ const Game = () => {
   if (currentQuestionIndex >= questions.length) {
     return (
       <div className="container">
-        <div className="game-over-wrapper">
+        <div className="gameOver">
           <h2>Game Over</h2>
           <p>Your score: {score}</p>
           <button onClick={handleRestart}>Restart Game</button>
